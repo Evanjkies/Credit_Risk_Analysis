@@ -51,4 +51,4 @@ The purpose of this analysis was to test a machine learning program in its abili
 The under sampling model had the worst accuracy score, followed by the oversampling methods and the combination method, all of which had middling scores. The ensemble methods were both considerably better but the easy ensemble accuracy score when determining loan risk was clearly the best. All of the methods were considerably more percise when predicting low risk determinations compared to high risk, but the easy ensemble classifier algorithim was the clear winner in this category as well. 
 
 ### Recommendation
-
+A case could be made that the easy ensemble method could be reccommended for actual use based on the fact that it is prediciting ~93% of all the risk determinations correctly, and because when it is wrong, it is erroring on the safe side, which is assuming more often than is actually the case that an applicant is high risk. 
